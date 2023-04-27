@@ -1,8 +1,14 @@
-import { ProfileHeader } from '../../../.nuxt/components';
+import { ProfileHeader, ProfileFooter } from '../../../.nuxt/components';
 
 <template>
-    <div>
+    <div class=" ">
         <ProfileHeader />
-        Profile event
+        
+        <div class="m-4">
+            Profile event
+        </div>
+
+        <ProfileFooter />
+        
     </div>
 </template>
